@@ -12,3 +12,9 @@ Eng
 This example solves the problem of producer and consumer in the Golang language.
 
 The critical area is the persons slice. Only one function can add or remove items at a time. Access to the slice is limited by mutexes. The maximum slice size is limited by writer and reader semaphores coupled with cond from the sync package. Thus, only 5 people can enroll in the slice.
+
+https://aarol.dev/posts/go-semaphores/
+
+https://pkg.go.dev/sync
+
+https://medium.com/german-gorelkin/synchronization-primitives-go-8857747d9660
