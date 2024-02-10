@@ -7,6 +7,7 @@ import (
 	"time"
 )
 
+// hello
 // Структура "человек" - элемент из слайса "люди" (слайс - "динамический массив")
 type person struct {
 	name string
